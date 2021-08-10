@@ -1,4 +1,6 @@
 # LiveObjectDetection
-LiveObjectDetection
 
-Used cv2 and  https://github.com/chuanqi305/MobileNet-SSD
+Used cv2 library and  https://github.com/chuanqi305/MobileNet-SSD
+
+pip install numpy
+pip install opencv-python
