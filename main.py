@@ -12,7 +12,7 @@ classes = ["background", "aeroplane", "bicycle", "bird", "boat",
            "sofa", "train", "tvmonitor"]
 
 np.random.seed(543210)
-colors =np.random.uniform(0, 255, size=(len(classes), 3))
+colors = np.random.uniform(0, 255, size=(len(classes), 3))
 
 net = cv2.dnn.readNetFromCaffe(prototxt_path, model_path)
 
